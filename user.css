@@ -145,6 +145,17 @@ MAIN VIEW
     transition: all 0.5s;
     cursor: pointer;
 }
+.main-coverSlotExpanded-container {
+    transition: transform 0.65s ease;
+    transform-origin: 50% -40px;
+}
+
+.main-coverSlotExpanded-container:hover{
+    transform: perspective(75em) rotateX(10deg) rotateY(-10deg);
+    transition: all 0.85s;
+}
+
+
 
 /* Album or song art */
 .main-entityHeader-image {
