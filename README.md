@@ -1,4 +1,4 @@
-# Luxe
+# 𝐿𝓊𝓍𝑒
 
-Spicetify theme based on [Blossom](https://github.com/spicetify/spicetify-themes/tree/master/Blossom) and [Galaxy](https://github.com/harbassan/spicetify-galaxy).
+A superlative Spicetify theme, based on [Blossom](https://github.com/spicetify/spicetify-themes/tree/master/Blossom) and [Galaxy](https://github.com/harbassan/spicetify-galaxy).
 
