@@ -91,11 +91,24 @@ MAIN VIEW
   transition: all 0.3s ease-out;
   filter: blur(4px);
 }
+
 .main-card-card:hover .main-card-imageContainer .main-cardImage-imageWrapper::after {
   transform: rotate(45deg) translate(0px, -70%);
   filter: blur(6px);
 }
 
+.playlist-playlist-playlistContent {
+  background: var(--spice-background);
+}
+
+.artist-artistOverview-artistOverviewContent {
+  background: var(--spice-background);
+}
+
+/* Darken artist image banner */
+.main-entityHeader-container.main-entityHeader-withBackgroundImage {
+  backdrop-filter: brightness(0.8);
+}
 
 /* SEARCH */
 .main-yourEpisodes-episodeCard {
@@ -165,12 +178,19 @@ MAIN VIEW
     cursor: pointer;
 }
 
+.main-yourEpisodes-coverContainer {
+    border-radius: 3.5%;
+    opacity: 100;
+    animation: both;
+    cursor: pointer;
+}
+
 .main-editImageButton-overlay {
     border-radius: 3.5%;
     background: unset;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px) brightness(0.5);
     color: var(--spice-button);
-    transition: all 1s;
+    transition: all 0.8s;
 }
 
 .main-entityHeader-imagePlaceholder {
